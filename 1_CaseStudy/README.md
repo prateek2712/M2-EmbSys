@@ -63,12 +63,77 @@ Power Supply to the Microcontroller, Sensors and Actuators
 * user must be able to select a song
 
 * System must use an external display to show a menu providing the following information:
-* 1) Current playing song
-* 2)Information about current playing song
-* 3) Menu showing how to select a different song
+ 1) Current playing song
+ 2) Information about current playing song
+ 3) Menu showing how to select a different song
 
 
 
 # Test Cases:
 * Are the decives receiving power supply? (Y/N)
 * Is the decision made by the microcontroller to turn ON/OFF the device correct? (Y/N)
+
+
+
+
+
+## Case Study : Washing Machine
+
+* The Washing Machine System is an embedded device that captures real-time inputs from sensors such as the door sensor, load sensor, speed sensor, and load sensor in order to identify the method of action.
+
+# Block Diagram
+
+![Blank diagram (1)](https://user-images.githubusercontent.com/47187002/154833454-464dfd2f-b822-4562-85bd-7633a8270394.jpeg)
+
+
+
+
+
+
+
+# Power Supply:
+* External source of power supply that powers all devices, switches and microcontroller
+# Switch buttons:
+* Act as a circuit breaker to either power the    system or isolate the system
+# EPROM:
+* Storage unit
+
+# LED's:
+* They act as a mode of communication with the user.
+
+# Microcontroller:
+* Performs all operations requireed by the system.
+
+# Door sensor:
+* Detects the position of the door to turn on or off the light and to make sure is shut & ready to use.
+
+# Load Sensor:
+* Detects the load applied and issues an alert if the material reaches the set limit.
+
+# Water level sensor:
+* Senses the level of water.
+
+# ADC
+* Converts analog signal to digital
+
+# Clock
+* For Synchronization
+
+### V - Model
+
+# Concept of Operation:
+* The Washing Machine System is an embedded device that captures real-time inputs from sensors such as the door sensor, load sensor, speed sensor, and load sensor in order to identify the method of action.
+
+# Low Level Requirements:
+* Switches to turn ON/OFF the system
+* Power Supply to the Microcontroller, Sensors and motor
+* To give an alert after the task is completed.
+* To display the results using LCD.
+# High Level Requirements:
+* To detect the level of water using water sensor
+* To detect the level of load and give alert if the limit exceeds.
+* To detect the position of the door.
+# Test Cases:
+* Are the decives receiving power supply? (Y/N)
+* Are the sensors working fine? (Y/N)
+* Are the alerts given when required?(Y/N)
