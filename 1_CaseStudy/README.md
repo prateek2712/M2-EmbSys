@@ -74,6 +74,8 @@ Power Supply to the Microcontroller, Sensors and Actuators
 * Are the decives receiving power supply? (Y/N)
 * Is the decision made by the microcontroller to turn ON/OFF the device correct? (Y/N)
 
+## Applications
+* Used for Listening Music
 
 
 
@@ -138,3 +140,6 @@ Power Supply to the Microcontroller, Sensors and Actuators
 * Are the decives receiving power supply? (Y/N)
 * Are the sensors working fine? (Y/N)
 * Are the alerts given when required?(Y/N)
+
+## Applications
+* Used for Washing Clothes
