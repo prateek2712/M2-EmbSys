@@ -1,5 +1,4 @@
-# M2-EmbSys
-
+# Water Level Sensor
 
 # Introduction
 * The Water Level Indicator detects and indicates the water level in an overhead tank or any other water container using a simple mechanism.
@@ -42,7 +41,7 @@ other water container
 Many other similar applications available.
 
 # 4W's & 1H
-## Who
+## Who:
 Automatic Water level Controller can be used in Hotels, Factories, Homes Apartments, Commercial Complexes, Drainage, etc.
 
 ## What:
