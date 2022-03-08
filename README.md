@@ -1,4 +1,6 @@
-
+|Codacy Badge|
+|----------|
+|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/92b949b191124f93872289ffa8861ed6)](https://www.codacy.com/gh/prateek2712/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prateek2712/M2-EmbSys&amp;utm_campaign=Badge_Grade)|
 # Water Level Sensor
 - In this project I'am using simulIDE as a simulator
 
